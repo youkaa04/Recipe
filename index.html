@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe</title>
+    <style>
+      body{
+    background-color: rgb(226, 205, 208);
+}
+.item{
+    border: 0px solid white;
+    border-radius: 15px;
+    background-color: white;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+}
+img{
+    border: 0px solid white;
+    border-radius: 30px;
+    width: 90%;
+    height: 70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+}
+h1{
+    margin:0px 22px;
+    font-weight: bold;
+    font-size: x-large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+p{
+    color: rgb(105, 105, 105);
+    font-size: small;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 18px;
+    padding:0px 3px;
+
+}
+.pp{
+    font-size: smaller;
+    font-weight: normal;
+}
+.h2{
+    color: #620262;
+    padding:0px 14px;
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.firstlist{
+    list-style-type: square;
+    display: list-item;
+    color: brown;
+    padding: 5px;
+
+
+}
+
+.bborder{
+    color: rgb(88, 88, 88);
+    font-size: large;
+}
+
+.list{
+    font-weight: bold;
+    font-size: medium;
+    border: 0px solid;
+    background-color: rgb(249, 240, 242);
+    border-radius: 5px;
+    width: 88%;
+    margin:0px 20px;
+    padding: 10px;
+
+
+}
+.bor{
+    display: flex;
+    margin:0px 40px;
+    margin-left: 20px;
+}
+h2{
+    color: rgba(94, 28, 28, 0.608);
+    font-size: x-large;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding:0px 20px;
+}
+.font{
+    font-size: large;
+}
+ol{
+    display: list-item;
+    list-style-type: square;
+    color: brown;
+    float: left;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.border{
+    border: 1px solid grey;
+    border-bottom: 1px;
+    border-left: 1px;
+    border-right: 1px;
+    padding:0px 20px;
+    margin:0px 40px;
+
+}
+li{
+    list-style-type: decimal;
+    color: brown;
+    font-weight: bold;
+    float: left;
+    text-align: initial;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+strong{
+    font-weight: bold;
+    color: rgb(61, 61, 61);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    float: left;
+    margin:0px 10px;
+}
+table{
+    display: table;
+    margin:0px;
+
+}
+.first{
+    display: table;
+    padding: 20px;
+
+
+}
+.borderr{
+    border: 1px solid grey;
+    border-top: 1px;
+    border-left: 1px;
+    border-right: 1px;
+    display: flex;
+    margin:0px 40px;
+    margin-left: 20px;
+
+}
+.grey{
+    color: grey;
+    font-weight: normal;
+    margin: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.brown{
+    color: brown;
+    padding:0px 170px;
+    font-weight: normal;
+    padding:0px 180px;
+    margin: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.brrown{
+    color: brown;
+    padding:0px 170px;
+    font-weight: normal;
+    padding:0px 214px;
+    margin: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.brrrown{
+    color: brown;
+    padding:0px 170px;
+    font-weight: normal;
+    padding:0px 187px;
+    margin: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.brrrrown{
+    color: brown;
+    padding:0px 170px;
+    font-weight: normal;
+    padding:0px 197px;
+    margin: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+}
+@media screen and (max-width:480px){
+    body{
+        background-color: white;
+        width: 450%;
+        height: 100%;
+    }
+    img{
+        width:  110%;
+        height: 70%;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0%;
+        margin: 0px;
+        border-radius: 0px;
+    }
+    h1{
+        font-size: xxx-large;
+        text-align: center;
+        padding: 14px;
+        margin: 30px;
+    }
+    p{
+        font-size: xx-large;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        margin: 22px;
+        padding: 3px;
+    
+    }
+    .pp{
+        font-size: xx-large;
+        padding: 0px;
+        font-weight: normal;
+    }
+    .h2{
+        font-size: xx-large;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    .bborder{
+        font-size: xx-large;
+    }
+    
+    .list{
+        font-size: xx-large;
+        border: 0px solid;
+        background-color: rgb(249, 240, 242);
+        border-radius: 5px;
+        width: 97%;
+        margin:0px 42px;
+        padding: 10px;
+        border-radius: 20px;
+    
+    }
+    h2{
+        font-size: xx-large;
+        font-weight: bold;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        margin: 20px;
+    }
+    .font{
+        font-size: xx-large;
+    }
+    ol{
+        display: list-item;
+        list-style-type: square;
+        color: brown;
+        padding: 16px;
+        font-weight: bold;
+        float: left;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .border{
+        border: 1px solid grey;
+        border-bottom: 1px;
+        border-left: 1px;
+        border-right: 1px;
+        padding: 20px;
+        margin: 40px;
+    }
+    li{
+        font-size: xx-large;
+        list-style-type: decimal;
+        color: brown;
+        font-weight: bold;
+        float: left;
+        text-align: initial;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    strong{
+        font-weight: bold;
+        color: rgb(61, 61, 61);
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        float: left;
+        font-size: xx-large;
+        margin:0px 10px;
+        text-align: center;
+    }
+    table{
+        display: table;
+        padding: 20px;
+    
+    }
+    .first{
+        display: table;
+        padding: 20px;
+    
+    
+    }
+    .borderr{
+        border: 1px solid grey;
+        border-top: 1px;
+        border-left: 1px;
+        border-right: 1px;
+        display: flex;
+        margin: 10px;
+        font-size: xx-large;
+    }
+    .grey{
+        color: grey;
+        font-weight: normal;
+        margin: 10px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: xx-large;
+    }
+    .brown{
+        color: brown;
+        padding:0px 170px;
+        font-weight: normal;
+        padding:0px 180px;
+        margin: 20px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: xx-large;
+    }
+    .brrown{
+        color: brown;
+        padding:0px 170px;
+        font-weight: normal;
+        padding:0px 214px;
+        margin:0px 55px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: xx-large;
+    }
+    .brrrown{
+        color: brown;
+        padding:0px 170px;
+        font-weight: normal;
+        padding:0px 187px;
+        margin:0px 26px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: xx-large;
+    }
+    .brrrrown{
+        color: brown;
+        padding:0px 170px;
+        font-weight: normal;
+        padding:0px 197px;
+        margin:0px 35px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+        font-size: xx-large;
+    }
+}
+    </style>
+</head>
+<body>
+    <div class="item">
+        <img src="image-omelette.jpeg">
+        <h1>Simple Omlette Recipe</h1>
+        <p>An rasy and quick dish, perfect for any meal. This classic omlette combines beaten eggs
+        coocked to perfection. optionally filled with your choice of cheese, vegetables, or meats.</p>
+        <div class="list">
+        <h2 class="h2">Preparation time</h2>
+        <ul>
+            <ol class="firstlist"></ol><strong class="bborder">Total:</strong><p class="pp">Approximately 10 minutes</p>
+            <ol class="firstlist"></ol><strong class="bborder">Preparation:</strong><p class="pp">5 minutes</p>
+            <ol class="firstlist"></ol><strong class="bborder">Coocking:</strong><p class="pp">5 minutes</p>
+        </ul>
+        </div>
+        <h2>Ingredients</h2>
+        <ul>
+            <ol></ol><p class="font">2-3 large eggs</p>
+            <ol></ol><p class="font">Salt, to taste</p>
+            <ol></ol><p class="font">Pepper, to taste</p>
+            <ol></ol><p class="font">1 tablespoon of butter or oil</p>
+            <ol></ol><p class="font">Optional fillings:cheese, diced vegetables, coocked meats, herbs</p>
+        </ul>
+        <div class="border"></div>
+        <h2>Instructions</h2>
+        <ul>
+            <li></li><strong>Beat the eggs</strong><p>: In a bowl, beat the eggs with a pinch of salt and pepper until they are well mixed.
+            You can add a tablespoon of water or milk for a fluffier texture.
+            </p>
+            <li></li><strong>Heat the pan</strong><p>: Place a non-stock frying pan over medium heat and add butter or oil.</p>
+            <li></li><strong>Cook the omlette</strong><p>: Once the butter is melted and bubbling, pour in the eggs.Tilt the pan to ensure the eggs evenly coat the surface.</p>
+            <li></li><strong>filling (optional)</strong><p>: When the eggs begin to set at the edges but are still slightly runny in the middle, sprinkle your chosen fillings over half of the omlette.</p>
+            <li></li><strong>and server</strong> <p>: As the omlette continues to cook, carefully lift one edge and fold it over the fillings. Let it cook for another minute, then slide it onto a plate.</p>
+            <li></li><strong>Enjoy</strong><p>: Server hot, with additional ssalt and pepper if needed.</p>
+        </ul>
+        <div class="border"></div>
+        <h2>Nutrition</h2>
+        <p>The table belo shows nutritional values per serving without the additional fillings.</p>
+        <table>
+            <tr class="borderr">
+              <th class="grey">Calories</th>
+              <th class="brown">277kcal</th>
+            </tr>
+            <tr class="borderr">
+              <td class="grey">Carbs</td>
+              <td class="brrrrown">0g</td>
+            </tr>
+            <tr class="borderr">
+              <td class="grey">Protein</td>
+              <td class="brrrown">20g</td>
+            </tr>
+            <tr class="bor">
+              <td class="grey">Fat</td>
+              <td class="brrown">22g</td>
+            </tr>
+          </table>
+    </div>
+</body>
+</html>
